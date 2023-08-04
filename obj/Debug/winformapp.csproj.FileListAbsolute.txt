@@ -1,0 +1,12 @@
+H:\winformapp\bin\Debug\winformapp.exe.config
+H:\winformapp\bin\Debug\winformapp.exe
+H:\winformapp\bin\Debug\winformapp.pdb
+H:\winformapp\bin\Debug\Guna.UI2.dll
+H:\winformapp\obj\Debug\winformapp.csproj.AssemblyReference.cache
+H:\winformapp\obj\Debug\winformapp.Form1.resources
+H:\winformapp\obj\Debug\winformapp.Properties.Resources.resources
+H:\winformapp\obj\Debug\winformapp.csproj.GenerateResource.cache
+H:\winformapp\obj\Debug\winformapp.csproj.CoreCompileInputs.cache
+H:\winformapp\obj\Debug\winformapp.csproj.CopyComplete
+H:\winformapp\obj\Debug\winformapp.exe
+H:\winformapp\obj\Debug\winformapp.pdb
