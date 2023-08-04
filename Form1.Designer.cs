@@ -35,17 +35,17 @@ namespace winformapp
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txbUserName = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txbPass = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2ToggleSwitch1 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.txbPass = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txbUserName = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -94,54 +94,6 @@ namespace winformapp
             this.guna2HtmlLabel3.TabIndex = 3;
             this.guna2HtmlLabel3.Text = "Đăng nhập";
             // 
-            // txbUserName
-            // 
-            this.txbUserName.BorderRadius = 24;
-            this.txbUserName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbUserName.DefaultText = "";
-            this.txbUserName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txbUserName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txbUserName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbUserName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbUserName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbUserName.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.txbUserName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbUserName.IconLeft = global::winformapp.Properties.Resources.icons8_user_24;
-            this.txbUserName.IconLeftOffset = new System.Drawing.Point(4, 0);
-            this.txbUserName.IconLeftSize = new System.Drawing.Size(28, 28);
-            this.txbUserName.Location = new System.Drawing.Point(405, 140);
-            this.txbUserName.Name = "txbUserName";
-            this.txbUserName.PasswordChar = '\0';
-            this.txbUserName.PlaceholderText = "";
-            this.txbUserName.SelectedText = "";
-            this.txbUserName.Size = new System.Drawing.Size(331, 48);
-            this.txbUserName.TabIndex = 4;
-            // 
-            // txbPass
-            // 
-            this.txbPass.BorderRadius = 24;
-            this.txbPass.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbPass.DefaultText = "";
-            this.txbPass.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txbPass.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txbPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbPass.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.txbPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbPass.IconLeft = global::winformapp.Properties.Resources.icons8_lock_50;
-            this.txbPass.IconLeftOffset = new System.Drawing.Point(4, 0);
-            this.txbPass.IconLeftSize = new System.Drawing.Size(28, 28);
-            this.txbPass.Location = new System.Drawing.Point(405, 228);
-            this.txbPass.Name = "txbPass";
-            this.txbPass.PasswordChar = '●';
-            this.txbPass.PlaceholderText = "";
-            this.txbPass.SelectedText = "";
-            this.txbPass.Size = new System.Drawing.Size(331, 48);
-            this.txbPass.TabIndex = 5;
-            this.txbPass.UseSystemPasswordChar = true;
-            this.txbPass.TextChanged += new System.EventHandler(this.txbPass_TextChanged);
-            // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
@@ -165,18 +117,6 @@ namespace winformapp
             this.guna2HtmlLabel4.TabIndex = 7;
             this.guna2HtmlLabel4.Text = "Mật khẩu:";
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2PictureBox1.Image = global::winformapp.Properties.Resources._137082125645e4193cf65978c8728ae6;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 77);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(337, 263);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // btnLogin
             // 
             this.btnLogin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -194,6 +134,7 @@ namespace winformapp
             this.btnLogin.Size = new System.Drawing.Size(157, 45);
             this.btnLogin.TabIndex = 12;
             this.btnLogin.Text = "Đăng nhập";
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // guna2DragControl2
             // 
@@ -238,7 +179,7 @@ namespace winformapp
             this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(492, 431);
+            this.guna2Button1.Location = new System.Drawing.Point(481, 424);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(180, 25);
             this.guna2Button1.TabIndex = 15;
@@ -260,6 +201,68 @@ namespace winformapp
             this.guna2ControlBox1.ShadowDecoration.Color = System.Drawing.Color.White;
             this.guna2ControlBox1.Size = new System.Drawing.Size(30, 30);
             this.guna2ControlBox1.TabIndex = 16;
+            // 
+            // txbPass
+            // 
+            this.txbPass.BorderRadius = 24;
+            this.txbPass.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbPass.DefaultText = "";
+            this.txbPass.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txbPass.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txbPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbPass.Font = new System.Drawing.Font("Segoe UI", 15F);
+            this.txbPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbPass.IconLeft = global::winformapp.Properties.Resources.icons8_lock_50;
+            this.txbPass.IconLeftOffset = new System.Drawing.Point(4, 0);
+            this.txbPass.IconLeftSize = new System.Drawing.Size(28, 28);
+            this.txbPass.Location = new System.Drawing.Point(405, 228);
+            this.txbPass.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txbPass.Name = "txbPass";
+            this.txbPass.PasswordChar = '●';
+            this.txbPass.PlaceholderText = "";
+            this.txbPass.SelectedText = "";
+            this.txbPass.Size = new System.Drawing.Size(331, 48);
+            this.txbPass.TabIndex = 5;
+            this.txbPass.UseSystemPasswordChar = true;
+            this.txbPass.TextChanged += new System.EventHandler(this.txbPass_TextChanged);
+            // 
+            // txbUserName
+            // 
+            this.txbUserName.BorderRadius = 24;
+            this.txbUserName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbUserName.DefaultText = "";
+            this.txbUserName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txbUserName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txbUserName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbUserName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbUserName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbUserName.Font = new System.Drawing.Font("Segoe UI", 15F);
+            this.txbUserName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbUserName.IconLeft = global::winformapp.Properties.Resources.icons8_user_24;
+            this.txbUserName.IconLeftOffset = new System.Drawing.Point(4, 0);
+            this.txbUserName.IconLeftSize = new System.Drawing.Size(28, 28);
+            this.txbUserName.Location = new System.Drawing.Point(405, 140);
+            this.txbUserName.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txbUserName.Name = "txbUserName";
+            this.txbUserName.PasswordChar = '\0';
+            this.txbUserName.PlaceholderText = "";
+            this.txbUserName.SelectedText = "";
+            this.txbUserName.Size = new System.Drawing.Size(331, 48);
+            this.txbUserName.TabIndex = 4;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.guna2PictureBox1.Image = global::winformapp.Properties.Resources._137082125645e4193cf65978c8728ae6;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 77);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(337, 263);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // Form1
             // 

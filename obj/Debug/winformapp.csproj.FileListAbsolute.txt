@@ -10,3 +10,4 @@ H:\winformapp\obj\Debug\winformapp.csproj.CoreCompileInputs.cache
 H:\winformapp\obj\Debug\winformapp.csproj.CopyComplete
 H:\winformapp\obj\Debug\winformapp.exe
 H:\winformapp\obj\Debug\winformapp.pdb
+H:\winformapp\obj\Debug\winformapp.FormHome.resources

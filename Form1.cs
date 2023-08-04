@@ -46,5 +46,12 @@ namespace winformapp
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            FormHome f = new FormHome();
+            f.Show();
+            this.Hide();
+        }
     }
 }
