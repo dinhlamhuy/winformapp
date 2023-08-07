@@ -8,9 +8,9 @@ namespace winformapp.Services
 {
     class Connect
     {
-        static string ServerName = "DESKTOP-O535D71\\SQLEXPRESS";
-        static string Database = "Demo_Api";
-        static string Username = "54314";
+        static string ServerName = "DESKTOP-CJ2TEH3";
+        static string Database = "demoapi";
+        static string Username = "sa";
         static string Password = "123";
         public static string ConnectionString = $"Provider=SQLOLEDB;Data Source={ServerName};Initial Catalog={Database};User ID={Username};Password={Password}";
 
